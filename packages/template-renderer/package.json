@@ -1,0 +1,16 @@
+{
+  "name": "@templatim/template-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pull:env": "vercel env pull .env.development.local",
+    "lint": "eslint \"api/**/*.{ts,tsx,js,jsx}\""
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.17"
+  },
+  "devDependencies": {
+    "vercel": "^33.4.1"
+  }
+}
